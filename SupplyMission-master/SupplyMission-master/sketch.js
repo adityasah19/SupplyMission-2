@@ -40,10 +40,12 @@ function setup() {
  	World.add(world, ground);
   box
 
- box1=new Box(300,200,50,50)
- box2=new Box(300,200,50,50)
- box3=new Box(300,200,50,50)
-
+ box1=new Box(400,350,200,20)
+ box1.shapeColor=color('red')
+ box2=new Box(400,300,100,20)
+ box2.shapeColor=color('red')
+ box3=new Box(400,300,100,20)
+ box3.shapeColor=color('red')
 
 
 	Engine.run(engine);
@@ -56,7 +58,7 @@ function draw() {
   background(0);
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
-  box1.display()
+ box1.display()
   box2.display()
   box3.display()
 
