@@ -40,14 +40,11 @@ function setup() {
  	World.add(world, ground);
   box
 
- box1=new Box(400,350,200,20)
- box1.shapeColor=color('red')
- box2=new Box(400,300,100,20)
- box2.shapeColor=color('red')
- box3=new Box(400,300,100,20)
- box3.shapeColor=color('red')
-
-
+ 
+ //box3=new Box(400,300,10,20)
+ box1=new Red (400,289,80,29)
+ box2=new Red (410,290,80,29)
+ box3=new Red (420,291,80,29)
 	Engine.run(engine);
   
 }
@@ -58,11 +55,11 @@ function draw() {
   background(0);
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
- box1.display()
-  box2.display()
-  box3.display()
-
  
+  //box3.display()
+box1.display()
+ box2.display()
+ box3.display()
  
   drawSprites();
  
