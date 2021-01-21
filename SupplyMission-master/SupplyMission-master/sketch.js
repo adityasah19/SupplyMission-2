@@ -42,9 +42,9 @@ function setup() {
 
  
  //box3=new Box(400,300,10,20)
- box1=new Red (400,289,80,29)
- box2=new Red (410,290,80,29)
- box3=new Red (420,291,80,29)
+ box1=new Red (300,600,20,100)
+ box2=new Red (480,600,20,100)
+ box3=new Red (390,660,200,20)
 	Engine.run(engine);
   
 }
